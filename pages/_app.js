@@ -12,11 +12,11 @@ function MyApp({ Component, pageProps }) {
   return <>
   <Head>
     <title>
-      El pez nuestro de cada día
+      La ostrería
     </title>
     <meta
   name="description"
-  content="El Pez Nuestro de Cada Día"
+  content="La ostrería"
 />
   </Head>
   <ContextProvider>

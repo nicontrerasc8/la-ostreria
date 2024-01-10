@@ -42,7 +42,7 @@ const BrandNavBar = () => {
   return <>
     <nav className={NavActiveColor ? "solidBack" : ""}>
       <Link href={"/"}>
-        <img src='/logo.png'/>
+        <h2>La ostrería</h2>
       </Link>
       <div className="nav-btns">
       <Link href={"/"}>
