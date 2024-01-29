@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lato&family=Montserrat&family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lato&family=Montserrat&family=Oleo+Script&family=Varela+Round&display=swap');
 :root {
-  --main: rgb(0, 0, 0);
-  --alternative-main: rgb(29, 27, 27);
-  --secondary: rgb(220, 38, 38);
-  --tertiary: rgb(235, 201, 4);
-  --contrast: rgb(255, 255, 255);
-  --contrastSoft: rgb(248, 221, 221);
+  --main: rgb(255, 255, 255);
+  --alternative-main: rgb(230, 230, 255);
+  --secondary: rgb(38, 117, 220);
+  --tertiary: rgb(4, 81, 235);
+  --contrast: rgb(20, 20, 21);
+  --contrastSoft: rgb(50, 46, 46);
 }
 ::-webkit-scrollbar{
   width: 1rem;

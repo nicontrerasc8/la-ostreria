@@ -42,7 +42,7 @@ const BrandNavBar = () => {
   return <>
     <nav className={NavActiveColor ? "solidBack" : ""}>
       <Link href={"/"}>
-        <h2>La ostrería</h2>
+        <img src={"/logo-ost.png"} />
       </Link>
       <div className="nav-btns">
       <Link href={"/"}>
@@ -100,11 +100,11 @@ const BrandNavBar = () => {
                           <FaInstagram/>
                       </button>
                     </a>
-                    <a href={`https://api.whatsapp.com/send?phone=51995638935&text=¡Hola! vengo de su página web.`}  target={"_blank"} rel="noreferrer">
+                    {/* <a href={`https://api.whatsapp.com/send?phone=51995638935&text=¡Hola! vengo de su página web.`}  target={"_blank"} rel="noreferrer">
                       <button className='btn-nav'>
                         <FaWhatsapp/>
                       </button>
-                    </a>
+                    </a> */}
                     </div>
           </motion.div>
   </BackDrop>

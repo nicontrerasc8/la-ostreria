@@ -14,11 +14,11 @@ const Footer = () => {
             <FaInstagram/>
         </button>
       </a>
-      <a href={`https://api.whatsapp.com/send?phone=51995638935&text=¡Hola! vengo de su página web.`}  target={"_blank"} rel="noreferrer">
+      {/* <a href={`https://api.whatsapp.com/send?phone=51995638935&text=¡Hola! vengo de su página web.`}  target={"_blank"} rel="noreferrer">
         <button className='btn-nav'>
           <FaWhatsapp/>
         </button>
-      </a>
+      </a> */}
           </div> 
   </footer>
 }
