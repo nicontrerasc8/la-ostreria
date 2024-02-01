@@ -27,13 +27,6 @@ const Arr = [
         img: "/notas2.jpg",
     },
     {
-
-        by: "Diario Ojo",
-        title: "Ostras de lujo desde S/15 en huarique de Surquillo",
-        link: "https://ojo.pe/mujer/ostras-de-lujo-al-alcance-de-todos-en-huarique-en-surquillo-web-ojo-noticia/",
-        img: "/notas3.jpg"
-    },
-    {
         by: "Revista Caretas",
         title: "¡Ostras! De cómo una esquina surquillana se ha hecho casi del monopolio ostrero en un país marisquero, pero iletrado del molusco por excelencia.",
         img: "/ostras.jpeg",
