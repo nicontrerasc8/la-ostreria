@@ -7,6 +7,12 @@ import Link from 'next/link'
 
 const Arr = [
     {
+        by: "Diario Ojo",
+        title: "La Ostrería: Encuentre las mejores ostras desde S/. 17 en Surquillo y Punta Hermosa",
+        link: "https://ojo.pe/mujer/la-ostreria-encuentre-las-mejores-ostras-desde-s-17-en-surquillo-y-punta-hermosa-noticia/",
+        img: "/notas3.jpg"
+    },
+    {
         logo: "/logo-com.png",
         logoClass: "el-comercio",
         by: "El Comercio",
