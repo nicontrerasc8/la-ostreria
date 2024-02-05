@@ -4,7 +4,7 @@ import BackDrop from './backdrop'
 import {motion} from "framer-motion"
 import { DropInFromLeft, DropInFromTop } from '../animations'
 
-const Video = ({isOn, out}) => {
+const Video = ({isOn, out, url}) => {
 
   return <BackDrop isOn={isOn} onClick={out}>
     <motion.div className='video-source'
@@ -13,14 +13,13 @@ const Video = ({isOn, out}) => {
         exit={{y: "100vh"}}
      
     >
-    <button className='btn-nav'>
-                <FaTimes/> Cerrar vídeo
-             </button>
-    <iframe src="https://www.youtube.com/embed/rrRRLVV2f2Y" 
+    <iframe src={url}
             
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
              allowFullScreen/>
-             
+         <button className='btn-nav'>
+                <FaTimes/> Cerrar vídeo
+             </button>        
   </motion.div>
   </BackDrop>
 }

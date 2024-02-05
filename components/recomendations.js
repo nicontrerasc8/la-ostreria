@@ -37,6 +37,7 @@ const Recomendations = () => {
   }, [Slide, SlidesLength])
 
   return <div className='section recomendations'>
+    <h2 className='social-h2' style={{marginBottom:"20px"}}>Lo que dicen nuestros clientes</h2>
     <AnimatePresence
         initial={false}
         exitBeforeEnter={true}

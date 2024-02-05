@@ -15,11 +15,13 @@ import { FacebookEmbed, InstagramEmbed, TikTokEmbed } from "react-social-media-e
 import Embed from "../components/embed";
 import Images from "../components/images";
 import Images2 from "../components/images2"
+import Videos from "../components/videos";
 
 export default function Home() {
   return <>
   <Header/>
   <OurKitchen/>
+  <Videos/>
   <Recomendations/>
   <Notas/>
   <Images/>

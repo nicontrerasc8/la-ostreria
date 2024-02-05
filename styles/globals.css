@@ -121,6 +121,7 @@ header.reverse-header{
 header.reverse-header button.btn-nav{
   background-color: var(--secondary);
   display: flex;
+  color: var(--main);
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -171,6 +172,7 @@ header button.btn-nav{
   justify-content: center;
   align-items: center;
   gap: 10px;
+  color: var(--main);
   text-align: left;
   background-color: var(--secondary);
 }
@@ -374,6 +376,43 @@ header button.btn-nav::before{
 
 .pagina h2 {
   font-size: calc(2vw + 1rem + 1vh);
+}
+.videos-23{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+.art{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: clamp(300px, 40vw, 40vw);
+  background-color: var(--alternative-main);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px var(--secondary);
+}
+.art svg{
+  color: var(--secondary);
+  font-size: 200px;
+}
+.art p{
+  font-size: clamp(25px, calc(2vmax + 1vmin), calc(2vmax + 1vmin));
+  font-family: 'Oleo script', cursive;
+}
+.art button{
+  margin-top: 10px;
+  background-color: var(--secondary);
+  color: #ffffff;
+  border-radius: 5px;
+}
+.art button::before{
+  background-color: #ffffff;
 }
 
 section .button.white-button{
