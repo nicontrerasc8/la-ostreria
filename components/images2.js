@@ -3,12 +3,7 @@ import React from 'react'
 import {motion} from "framer-motion"
 
 const Arr = [
-    "/album/10.jpeg",
-    "/album/11.jpeg",
-    "/album/12.jpeg",
-    "/album/13.jpeg",
-    "/album/14.jpeg",
-    "/album/15.jpeg",
+    "/album/10.jpg",
 ]
 
 const Images2 = () => {

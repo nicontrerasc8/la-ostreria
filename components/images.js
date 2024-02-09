@@ -17,7 +17,7 @@ const Arr = [
 const Images = () => {
   return <div className='notas'>
     <h2>
-        Nuestros platos
+        Fotos destacadas
     </h2>
     <section className='image-grid'>
         {

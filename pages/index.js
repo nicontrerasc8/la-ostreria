@@ -26,7 +26,7 @@ export default function Home() {
   <Notas/>
   <Images/>
   <Embed/>
-  <Images2/>
+{/*   <Images2/> */}
   <Ubicacion/>
 {/*     <Carta/> */}
   </>
