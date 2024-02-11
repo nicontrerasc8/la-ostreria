@@ -14,7 +14,7 @@ const ArrOfRecomendations = [
     },
     {
         r: "Mi plato favorito fue las ostras al limón, buenazo. Una experiencia única.",
-        p: "Malu Quinteros"
+        p: "Jeffrey Villanueva"
     },
 ]
 

@@ -28,7 +28,7 @@ const Arr = [
     },
     {
         by: "Revista Caretas",
-        title: "¡Ostras! De cómo una esquina surquillana se ha hecho casi del monopolio ostrero en un país marisquero, pero iletrado del molusco por excelencia.",
+        title: "Mar y Fuego. La Ostrería, el nuevo point surquillano.",
         img: "/ostras.jpeg",
         to: "/notas-periodisticas/p1"
     },
