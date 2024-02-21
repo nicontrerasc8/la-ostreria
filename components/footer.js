@@ -9,7 +9,7 @@ const Footer = () => {
           <FaFacebook/>
         </button>
       </a>
-      <a href='https://www.instagram.com/elpeznuestrodecadadia/' target={"_blank"} rel="noreferrer">
+      <a href='https://www.instagram.com/laostreriarestaurante' target={"_blank"} rel="noreferrer">
         <button className='btn-nav'>
             <FaInstagram/>
         </button>
